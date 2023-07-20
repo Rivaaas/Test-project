@@ -1,0 +1,14 @@
+{
+  "name": "demo_cypress1",
+  "version": "1.0.0",
+  "description": "Proyecto de pruebas",
+  "main": "index.js",
+  "scripts": {
+    "test-chrome": "cypress run --spec cypress/e2e/smoktestbanco.cy.js --browser chrome"
+  },
+  "author": "Victor Rivas",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.1"
+  }
+}
